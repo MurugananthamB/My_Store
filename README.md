@@ -1,66 +1,44 @@
-# Bowies (Fake Store React App)
+# Add to Cart Task Using Modal
 
-## Demo Link : [Click Here!!!](https://bowies.netlify.app/)
+This is a ReactJS web application that fetches product data from the Fake Store API and allows users to add products to a cart through a modal interface. The application is built with a focus on responsive design and clean, readable code.
 
-## Description
+## Task Description
 
-This project is a simple e-commerce web application built using **React** and styled with **Tailwind CSS**. It fetches products from the **Fake Store API** and allows users to add or remove items from a shopping cart. The cart state is managed using React's component state, and the layout is fully responsive, working well on both desktop and mobile devices.
+The application performs the following functions:
+
+- Fetches a list of products from the [Fake Store API](https://fakestoreapi.com/).
+- Displays products in a user-friendly format, including an image, title, price, and an "Add to Cart" button.
+- Allows users to add products to a cart. If the product is already added, an alert message will display: **“Item already added to the cart”**.
+- Shows the number of products in the cart on the Navbar.
+- Opens a modal to display the cart's contents when the "Cart" button is clicked.
+- Provides a "Remove from Cart" option in the modal to allow users to remove products from the cart.
+- Passes necessary data between components using props.
+- Updates the cart value correctly when products are added or removed.
+- Ensures responsive design, working well on both desktop and mobile devices.
+
+## Tech Stack
+
+- **ReactJS** for building the user interface
+- **HTML/CSS** and **Tailwind CSS** for styling
+- **JavaScript** for functionality
+
+## Demo Site
+
+You can view the live demo of the application [here](https://anandstores.netlify.app/).
 
 ## Features
 
-- **Product List**: Products are fetched from the Fake Store API and displayed in a grid layout.
-  
-- **Add to Cart**: Users can add products to the cart. If the product is already in the cart, an alert will notify the user.
-  
-- **Remove from Cart**: Users can remove items from the cart via a "Remove from Cart" button.
-  
-- **Cart Count**: The number of products in the cart is displayed in the navbar.
-  
-- **Cart Modal**: The cart contents are displayed in a modal that can be opened by clicking on the cart button in the navbar.
-  
-- **Responsive Design**: The UI is fully responsive and adjusts for different screen sizes using **Tailwind CSS**.
-  
+- Product fetching from a public API.
+- Responsive product layout.
+- Add to Cart functionality with product count display.
+- Modal interface for cart view.
+- Product removal from cart with dynamic updates.
+- Clean and modular codebase for easy maintenance.
 
-## Technologies
+## Submission
 
-- **React**: Front-end JavaScript library for building user interfaces.
-  
-- **Tailwind CSS**: Utility-first CSS framework for styling the application.
-  
-- **Fake Store API**: RESTful API used to fetch product data.
+All work has been pushed to GitHub and deployed on Netlify. The URLs have been submitted as required.
 
+---
 
-## Usage
-
-1. Browse the product list displayed on the homepage.
-   
-2. Add products to the cart by clicking the **Add to Cart** button.
- 
-3. View the number of items in the cart by checking the cart button in the navbar.
- 
-4. Open the cart modal by clicking the **Cart** button in the navbar.
- 
-5. Remove items from the cart using the **Remove from Cart** button inside the modal.
-
-## File Structure
-
-1. src
-
-- assests
-  - images
-
-- components
-  
-  - Navbar.js          
-  - ProductList.js     
-  - ProductItem.js    
-  - CartModal.js       
-  - CartItem.js
-     
-2. App.js 
-
-3. index.js    
-
-4. index.css
-
-5. README.md   
+This project was developed as part of a task to create a functional Add to Cart feature using modal windows in a ReactJS application.
